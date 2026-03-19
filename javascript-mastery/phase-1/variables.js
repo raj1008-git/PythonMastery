@@ -1,11 +1,18 @@
-const username = "Raj";
-let loginCount = 0;
-loginCount = loginCount + 1;
-console.log(username);
-console.log(loginCount);
+const name = "Raj";
+const city = "Kathmandu";
+const greeting = "Hello, ${name}";
 
-const appName = "Mindset";
-let activeUsers = 0;
-activeUsers = activeUsers + 5;
-console.log(appName);
-console.log(activeUsers);
+const age = 25;
+const price = 9.99;
+const negetive = -10;
+
+const isActive = true;
+const isDeleted = false;
+const selectedUser = null;
+
+// undefined
+let token;
+console.log(token);
+
+const bigNumber = 987887677667679898989898n;
+console.log(bigNumber);
